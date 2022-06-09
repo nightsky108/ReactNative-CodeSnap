@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-gifted-chat/lib/MessageContainer.js b/node_modules/react-native-gifted-chat/lib/MessageContainer.js
+index 9be25bf..17cfa7b 100644
+--- a/node_modules/react-native-gifted-chat/lib/MessageContainer.js
++++ b/node_modules/react-native-gifted-chat/lib/MessageContainer.js
+@@ -1,6 +1,8 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { FlatList, View, StyleSheet, Keyboard, TouchableOpacity, Text, Platform, } from 'react-native';
++import {  View, StyleSheet, Keyboard,  Text, Platform, } from 'react-native';
++import { FlatList,TouchableOpacity } from 'react-native-gesture-handler';
++
+ import LoadEarlier from './LoadEarlier';
+ import Message from './Message';
+ import Color from './Color';
+

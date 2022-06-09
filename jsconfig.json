@@ -1,0 +1,26 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"],
+      "@modules/*": ["src/modules/*"],
+      "@screens/*": ["src/screens/*"],
+      "@store/*": ["src/store/*"],
+      "@utils/*": ["src/utils/*"],
+      "@theme/*": ["src/theme/*"],     
+      "@i18n/*": ["src/i18n/*"],
+      "@lib/*": ["src/lib/*"],
+      "@common/*": ["src/common/*"],
+      "@data/*": ["src/data/*"],
+      "@contexts/*": ["src/contexts/*"],
+
+      "@components": ["src/components/index.js"],
+      "@containers": ["src/containers/index.js"],
+      "@theme": ["src/theme/index.js"],
+    }
+  }
+}

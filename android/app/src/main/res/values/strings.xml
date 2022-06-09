@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">JiTeng</string>
+    <string name="splashscreen" translatable="false">Splashscreen</string>
+</resources>
